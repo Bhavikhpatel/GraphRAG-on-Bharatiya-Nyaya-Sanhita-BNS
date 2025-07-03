@@ -1,0 +1,1 @@
+# GraphRAG-on-Bharatiya-Nyaya-Sanhita-BNS
