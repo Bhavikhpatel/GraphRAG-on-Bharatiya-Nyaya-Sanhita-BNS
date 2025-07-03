@@ -2,8 +2,7 @@
 
 This project implements a sophisticated Retrieval-Augmented Generation (RAG) system to answer legal questions about the **Bharatiya Nyaya Sanhita (BNS)**. It parses the BNS PDF, automatically extracts legal concepts into a Neo4j knowledge graph, and uses a Large Language Model (LLM) to provide structured answers based on user queries.
 
-<!-- You can add a screenshot of your Gradio app here -->
-<!-- ![Gradio App Screenshot](link_to_your_screenshot.png) -->
+[![Watch the demo on LinkedIn](./coverPage.png)]([https://www.linkedin.com/feed/update/urn:li:activity:1234567890123456789/](https://www.linkedin.com/posts/bhavikhpatel_neo4j-python-llama-activity-7346329202394087425-23jN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlX8b4B9RHk15o4yRmtJaLIwRHZAEPsSk4))
 
 ## 📜 Overview
 
@@ -57,8 +56,8 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone <url>
+    cd GraphRAG-on-Bharatiya-Nyaya-Sanhita-BNS
     ```
 
 2.  **Create a virtual environment and activate it:**
@@ -134,11 +133,10 @@ The script is designed to be run once for setup and then used for querying via t
 
 ## 💡 Future Improvements
 
--   **Enhanced Entity Recognition**: Improve the LLM prompt to extract more entities (e.g., exceptions, specific conditions) and relationships.
--   **Hybrid Search**: Combine semantic search with traditional keyword search (e.g., BM25) for more robust retrieval.
--   **Batch Processing**: Add functionality to analyze a batch of news articles or documents.
--   **Citation Highlighting**: Highlight the exact sentences from the source context that were used to generate the answer.
+- **Accuracy Optimization**: Enhance retrieval and reasoning precision by refining graph queries, embeddings, and prompt structure.
 
-## 📄 License
+- **Highlight Graph Context**: Visually display the subgraph of retrieved legal nodes and relationships to help users verify and trust the source.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **Feedback Loop**: Allow users to rate responses or suggest corrections, enabling continuous refinement of both graph queries and LLM behavior.
+
+
