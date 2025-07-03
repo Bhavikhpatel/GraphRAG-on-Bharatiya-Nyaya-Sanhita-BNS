@@ -2,7 +2,7 @@
 
 This project implements a sophisticated Retrieval-Augmented Generation (RAG) system to answer legal questions about the **Bharatiya Nyaya Sanhita (BNS)**. It parses the BNS PDF, automatically extracts legal concepts into a Neo4j knowledge graph, and uses a Large Language Model (LLM) to provide structured answers based on user queries.
 
-[![Watch the demo on LinkedIn](./coverPage.png)](https://www.linkedin.com/posts/bhavikhpatel_neo4j-python-llama-activity-7346329202394087425-23jN)
+[![Watch the demo on LinkedIn](./assests/coverPage.png)](https://www.linkedin.com/posts/bhavikhpatel_neo4j-python-llama-activity-7346329202394087425-23jN)
 
 ## 📜 Overview
 
